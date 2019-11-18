@@ -1,8 +1,9 @@
 #write your code here
 
 def countdown
-  time = time.now
-  while time != 0:00
-    puts time.now
+  timeleft = 10
+  while time > 0
+    puts "#{timeleft} SECOND(S)!"
   end
+  return "HAPPY NEW YEAR!"
 end
