@@ -1,7 +1,6 @@
 #write your code here
 
-def countdown
-  timeleft = 10
+def countdown(timeleft)
   while timeleft > 0
     puts "#{timeleft} SECOND(S)!"
     timeleft -= 1
